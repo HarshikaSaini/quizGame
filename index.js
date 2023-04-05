@@ -14,8 +14,8 @@ else
 //console.log("Hi! " +userName+','+ " Do You Know Harshika ? ");
 console.log('\n');
 var result=readlineSync.question("Would you like to play a Quiz ? \n");
-var result1 ='Yes';
-if(result.toUpperCase === result1.toUpperCase){
+var result1 =  'Yes';
+if(result.toUpperCase() === result1.toUpperCase()){
 var score = 0;
 function play(question,answer){
   var userAnswer = readlineSync.question(question);
