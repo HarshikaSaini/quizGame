@@ -32,26 +32,26 @@ function play(question,answer){
 }
 
 var arr = [{
-  question : "Where do I live ?",
-  answer:  "Ghaziabad"
+  question : "What is national song of India? ",
+  answer:  "Vande Mataram"
 },
 {
-  question : "What is my best friend name  ? ",
-  answer:  "Astha"
+  question : "What is the capital of India? ",
+  answer:  "Delhi"
   
 },
 {
-  question : "My Favourite color? ",
-  answer:  "Red"
+  question : "Most literate state of India? ",
+  answer:  "Kerala"
   
 },
 {
-  question : "Best Time Pass? ",
-  answer:  "Gossiping"
+  question : "Who wrote the constitution of India? ",
+  answer:  "Prem Behari Narain Raizada"
 },
 {
-  question : "When is her B'day? ",
-  answer:  "9September"
+  question : "Who is the first president of India? ",
+  answer:  "Dr. Rajendra Prasad"
              
 }];
 
@@ -75,5 +75,3 @@ else
 {
   console.log("Thanks for giving your time !!");
 }
-           
-
